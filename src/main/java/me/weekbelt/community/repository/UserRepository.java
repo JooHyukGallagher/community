@@ -1,4 +1,4 @@
-package me.weekbelt.community.domain.repository;
+package me.weekbelt.community.repository;
 
 import me.weekbelt.community.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
