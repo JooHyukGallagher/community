@@ -10,6 +10,16 @@ spring:
             client-id: 219612799187184
             client-secret: 54c2ec07dfe0d191c41eb443da4c65ea
 
+  datasource:
+      url: jdbc:mysql://localhost:3306/community?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+      username: connectuser
+      password: connect123!@#
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+  devtools:
+    livereload:
+      enabled: true
+
 custom:
   oauth2:
     kakao:
